@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.product-item-container {
+  width: 150px;
+  margin: 20px;
+}
+
+.product-item-image {
+  width: 150px;
+  border-radius: 6px;
+}
+
+.card-title {
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: bold;
+}
+.price-rating-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-brand {
+  color: #475569;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 400;
+}
+.card-rating {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: bold;
+}
+.card-price {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-rating-container {
+  height: 20px;
+  width: 42px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.card-rating {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 2px;
+}
+.card-rating-icon {
+  height: 12px;
+}
